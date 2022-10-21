@@ -1,0 +1,17 @@
+opa, esse é só um teste de autoSave. Tive um probleminha ;9. Meu vsCode estava configurado para não salvar automaticamente um arquivo. E o que isso me gerou?
+Simples, não salvando o arquivo, não fazia às alterações no projeto e assim não aparecia às características dele. 
+
+Exemplo: 
+modificação no arquivo "nomes.txt".
+correto: Aparecia um "M" do lado do arquivo. 
+Meu caso(Errado): Aparecia nada. Como se já tivesse sido salvo.
+
+Porém, eu não sabia que o problema era que não estava salvando, então decide começar outro do zero. Nisso fui fechar as pastas do arquino no vsCode e quando fechei apareceu
+as características/status do arquivo. Então descobrio o problema. 
+
+Qual a solução?
+-> Arquivo
+-> Preferências
+-> Configurações
+-> Pesquisa por AutoSave/Salvamento automatico
+-> Tira o Off e deixa afterDelay.
